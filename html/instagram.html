@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .container{
+
+            height: 100vh;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box{
+
+            height: 70%;
+            width: 30%;
+            border: 2px solid black;
+        }
+
+        #inner-box-1{
+
+            height: 70%;
+            border: 2px dashed red;
+        }
+
+        #inner-box-2{
+
+            height: 10%;
+            border: 2px dashed green;
+        }
+
+        #inner-box-3{
+
+            height: 18%;
+            border: 2px dashed brown;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo{
+
+            height: 20%;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+        }
+
+        .input{
+
+            height: 50%;
+            border: 2px solid red;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .links{
+
+            height: 28%;
+            border: 2px solid blue;
+        }
+
+        .m{
+
+            width: 70%;
+            margin: auto;
+            
+        }
+
+        .m input{
+
+            height: 20%;
+
+        }
+
+        #inner-box-3 img{
+
+            width: 40%;
+            height: 52%;
+        }
+
+        .box img{
+
+            height: 100%;
+            width: 100%;
+        }
+
+        .logo img{
+
+            width: 80%;
+        }
+
+        .links{
+
+            display: flex;
+            justify-content: center;
+        }
+
+        .links h1{
+
+            border-top:2px solid gray;
+            width: 30%;
+            margin-left: 18px;
+            margin-right: 18px;
+        }
+
+        span{
+
+            position: relative;
+            top: 12px;
+        }
+
+    </style>
+</head>
+<body>
+
+
+    <div class="container">
+
+        <div class="box">
+            <img src="https://static.cdninstagram.com/images/instagram/xig/homepage/phones/home-phones.png?__makehaste_cache_breaker=HOgRclNOosk" alt="">
+        </div>
+        <div class="box">
+            <div id="inner-box-1">
+                <div class="m logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/2560px-Instagram_logo.svg.png" alt="">
+                </div>
+                <div class="m input">
+                    <input type="text" placeholder="username">
+                    <input type="text" placeholder="password">
+                    <input type="submit">
+                </div>
+                <div class="m links">
+                    <h1></h1><span>OR</span><h1></h1>
+                </div>
+            </div>
+            <div id="inner-box-2"></div>
+            <div id="inner-box-3">
+                <img src="https://static.cdninstagram.com/rsrc.php/v3/yt/r/Yfc020c87j0.png" alt="">
+                <img src="https://static.cdninstagram.com/rsrc.php/v3/yz/r/c5Rp7Ym-Klz.png" alt="">
+            </div>
+            
+        </div>
+
+    </div>
+    
+</body>
+</html>
