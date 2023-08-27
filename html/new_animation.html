@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+
+        body{
+
+            background-color:black;
+        }
+      .box{
+
+            height: 200px;
+            width: 200px;
+            background-color: black;
+            animation-name: mohit;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes mohit {
+            
+            from{
+
+                width: 200px;
+                height: 200px;
+                background-color: red;
+                margin-left: 0px;
+                margin-top: 0px;
+
+            }
+
+            to{
+               
+                width: 1200px;
+                height: 500px;
+                background-color: yellow;
+                margin-left: 800px;
+                margin-top: 700px;
+
+            }
+        } 
+
+      .box2 {
+        width: 200px;
+        height: 200px;
+        background-color: black;
+        animation-name: rohit;
+        animation-duration: 5s;
+        position: absolute;
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes rohit {
+        0% {
+          left: 0px;
+          top: 0px;
+        }
+
+        25% {
+          left: 500px;
+          top: 0px;
+          background-color: yellow;
+          border-radius: 80px;
+        }
+
+        50% {
+          left: 500px;
+          top: 700px;
+          background-color: pink;
+          border-radius: 0px;
+        }
+
+        75% {
+
+            left: 0px;
+            top: 700px;
+            background-color: orangered;
+            border-radius: 80px;
+        }
+
+        100% {
+
+            left: 0px;
+            top: 0px;
+            background-color: white;
+            border-radius: 0px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+
+    <div class="box2"></div>
+  </body>
+</html>
